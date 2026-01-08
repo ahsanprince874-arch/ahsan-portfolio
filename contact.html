@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-  <h2>Contact Me</h2>
 
-  <form onsubmit="return validateForm()">
-    <input type="text" id="name" placeholder="Your Name"><br><br>
-    <input type="email" id="email" placeholder="Your Email"><br><br>
-    <textarea id="message" placeholder="Message"></textarea><br><br>
-    <button type="submit">Send</button>
-  </form>
+<header>
+    <div class="logo">Ahsan General & Mobile Store</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
 
-  <a href="index.html">Back to Home</a>
+<section class="hero">
+    <h1>Contact Us</h1>
+
+    <form onsubmit="return validateForm()">
+        <input id="name" type="text" placeholder="Your Name">
+        <input id="phone" type="text" placeholder="Your Phone">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+
+    </form>
+</section>
+
+<footer> 
+    
+    <p>📞 03063314342 | 📧 ahsanprince874@gmail.com</p>
+    <p>📍 Sakrand</p>
+</footer>
+
+<a href="https://wa.me/qr/HL2PMDF5ZND5D1" class="whatsapp" target="_blank">WhatsApp</a>
+<a href="https://wa.me/qr/HL2PMDF5ZND5D1" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i> WhatsApp Us
+
 </body>
 </html>
